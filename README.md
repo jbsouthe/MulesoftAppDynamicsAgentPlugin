@@ -2,10 +2,6 @@
 - Ensures the AppDynamics agent doesn't lose track of a transaction during complex flow and api calls due to mule's reactor framework
 - Collects the flow name, start time, and processors called for each transaction and uploads them to the data collectors
 - Detects artifact deployments and submits events for installation and startup of the artifact, and even includes a call stack when an API fails to start.
-- If the AppDynamics Connector is in an API, this plugin will process the calls to the processors in that connector (that connector is here: https://github.com/jbsouthe/AppDynamics-Mulesoft4-Extension)
-
-### OMF Specific Features
-- Collects messages and properties logged with the Business Intermediate Corp Logger and sends them to AppD analytics
 
 ## Required
 - Agent version 21.4+
