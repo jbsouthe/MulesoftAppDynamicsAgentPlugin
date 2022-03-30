@@ -29,6 +29,8 @@ public class AppDManagementNotificationListener extends AppDynamicsNotificationH
             case ManagementNotification.MANAGEMENT_COMPONENT_QUEUE_EXHAUSTED:
                 handleManagementComponentQueueExhausted( notification, eventName, actionIdentifier, _artifactId, source );
                 break;
+            default:
+                handleManagementDefaultEvent( notification, eventName, actionIdentifier, _artifactId, source);
         }
     }
 

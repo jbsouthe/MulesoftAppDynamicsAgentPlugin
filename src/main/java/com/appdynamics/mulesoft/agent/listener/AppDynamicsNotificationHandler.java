@@ -51,6 +51,10 @@ public class AppDynamicsNotificationHandler {
         logger.debug("handle Management Component Queue Exhausted Event, Name: {} action identifier: {} source: {}", eventName, actionIdentifier, source);
     }
 
+    protected void handleManagementDefaultEvent(ManagementNotification notification, String eventName, String actionIdentifier, String artifactId, Object source) {
+        logger.debug("handle Management Default Event, Name: {} action identifier: {} source: {}", eventName, actionIdentifier, source);
+    }
+
     protected void handleConnectionDisconnected(ConnectionNotification notification, String eventName, String actionIdentifier, String artifactId, Object source) {
         logger.debug("handle Connection Disconnected Event, Name: {} action identifier: {} source: {}", eventName, actionIdentifier, source);
     }

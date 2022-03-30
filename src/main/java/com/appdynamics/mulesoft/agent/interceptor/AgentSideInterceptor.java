@@ -290,18 +290,6 @@ public class AgentSideInterceptor extends MyBaseInterceptor {
 
                 break;
             }
-            case "handleManagementComponentQueueExhausted": {
-                String eventName = (String) params[1];
-                String actionIdentifier = (String) params[2];
-                Object source = params[4];
-
-                // not really sure what this is...
-                getLogger().debug(String.format(
-                        "handleManagementComponentQueueExhausted: %s action identifier: %s notification: %s api: %s source: %s",
-                        eventName, actionIdentifier, notification, formattedArtifactId, source));
-
-                break;
-            }
             case "handleMessageRequestReceived": { // fires when a listener triggers in the code
                 String eventName = (String) params[1];
                 String actionIdentifier = (String) params[2];
