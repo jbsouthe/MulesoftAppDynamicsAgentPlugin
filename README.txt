@@ -12,8 +12,6 @@
 wrapper.java.additional.92=-DAppDynamicsForceMulesoftStatisticsCollection=false
 wrapper.java.additional.93=-DAppDynamicsFlattenNameMulesoftStatisticsCollection=false
 
-- Copy AppD-MuleAgentTracer-2.0.jar file under <mule-install-dir>/lib/user
-
 - Restart the mule JVM
 
 - Edit MuleMetricCollection.properties file in <agent-install-dir>/ver.x.x.x.x/sdk-plugins

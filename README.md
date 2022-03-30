@@ -11,7 +11,6 @@
 
 ## Deployment steps
 - Copy `AppD-MuleAgentTracer-2.1.jar` file under `<agent-install-dir>/ver.x.x.x.x/sdk-plugins`
-- Copy `AppD-MuleAgentTracer-2.1.jar` file under `<MULE_HOME>/lib/user`
 - OPTIONALLY: add the following config options as well to the `wrapper.conf`
 ```properties
   wrapper.java.additional.92=-DAppDynamicsForceMulesoftStatisticsCollection=false
