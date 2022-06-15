@@ -3,6 +3,8 @@
 - Collects the flow name, start time, and processors called for each transaction and uploads them to the data collectors
 - Detects artifact deployments and submits events for installation and startup of the artifact, and even includes a call stack when an API fails to start.
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/jbsouthe/MulesoftAppDynamicsAgentPlugin)
+
 ## Required
 - Agent version 21.4+
 - Mulesoft version 4.3.0+
