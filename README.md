@@ -1,5 +1,6 @@
 ## Motivation for a Mulesoft Plugin
 
+<<<<<<< HEAD
 Though Mule is supported by appdynamics, the display of BTs and backends does not often display the design of Mulesoft flows and steps in the way administrators and developers work within mulesoft. This plugin takes advantage of the mulesoft notification framework to add decorations to transactions within mulesoft in order to help a user troubleshooting issues map what they know of the transactions to information made available within appdynamics.
 
 The following capabilities are added with the mulesoft agent plugin:
@@ -39,6 +40,11 @@ Details of one Custom Event
 ## Installation Instructions
 
 ### Required
+=======
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/jbsouthe/MulesoftAppDynamicsAgentPlugin)
+
+## Required
+>>>>>>> 5dadc20bbfaafc3031ebc63444db595d57cc3bb2
 - Agent version 21.4+
 - Mulesoft version 4.3.0+
 - Java 8+
